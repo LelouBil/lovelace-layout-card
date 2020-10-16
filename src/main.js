@@ -218,6 +218,7 @@ class LayoutCard extends LitElement {
         grid-template-columns: ${this._config.gridcols || "auto"};
         grid-gap: ${this._config.gridgap || "auto"};
         place-items: ${this._config.gridplace || "auto"};
+        margin: auto;
         "></div>
       `;
     return html`
